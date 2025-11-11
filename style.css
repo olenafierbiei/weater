@@ -1,0 +1,106 @@
+body {
+  font-family: 'Lucida Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+
+  height: auto;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #3399CC;
+}
+
+header {
+  background-color: #3399CC;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+.weather li {
+  border: 5px solid #ccc;
+  color: #ffffff;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+.class1 {
+  flex: 1 1 31%;
+}
+
+.class2 {
+  flex: 1 1 20%;
+}
+
+.class3 {
+  flex: 1 1 33%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.class4 {
+  flex: 1 1 60%;
+}
+
+#lisbon {
+  background-color: #3399CC;
+
+
+}
+
+#paris {
+  background-color: #33CCCC;
+}
+
+#beldrad {
+  background-color: #996699;
+}
+
+#venice {
+  background-color: #C24747;
+}
+
+#tel-avive {
+  background-color: #E2674A;
+}
+
+#cair {
+  background-color: #FFCC66;
+}
+
+#new-york {
+  background-color: #99CC99;
+}
+
+#new-delhi {
+  background-color: #669999;
+}
+
+#san-francisco {
+  background-color: #CC6699;
+}
+
+#tokyo {
+  background-color: #339966;
+}
+
+#sydney {
+  background-color: #666699;
+}
