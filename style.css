@@ -4,19 +4,19 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-
   height: auto;
-
   justify-content: center;
   align-items: center;
-  background-color: #3399CC;
+  background-color: #2B81AC;
+  color: white;
+  padding: 40px;
+  border: 20px solid rgb(65, 93, 137);
 }
 
 header {
-  background-color: #3399CC;
-  color: white;
   text-align: left;
   padding: 20px;
+  font-size: 21px;
 }
 
 .weather {
@@ -24,15 +24,13 @@ header {
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
-  display: flex;
   width: 100%;
   height: auto;
   justify-content: space-around;
 }
 
 .weather li {
-  border: 5px solid #ccc;
-  color: #ffffff;
+  border: 3px solid #fffefe;
   padding: 15px;
   margin: 0;
   text-align: center;
@@ -40,67 +38,80 @@ header {
   box-sizing: border-box;
 }
 
+
 .class1 {
-  flex: 1 1 31%;
-}
+  display: inline-block;
 
-.class2 {
-  flex: 1 1 20%;
-}
-
-.class3 {
-  flex: 1 1 33%;
-  padding: 10px;
-  margin: 10px;
   box-sizing: border-box;
 }
 
-.class4 {
-  flex: 1 1 60%;
-}
-
 #lisbon {
+  width: 50%;
   background-color: #3399CC;
-
-
 }
 
 #paris {
   background-color: #33CCCC;
+  width: 25%;
 }
 
 #beldrad {
+  width: 25%;
   background-color: #996699;
+}
+
+.class2 {
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 #venice {
   background-color: #C24747;
+  width: 25%;
 }
 
 #tel-avive {
+  width: 25%;
   background-color: #E2674A;
 }
 
 #cair {
+  width: 25%;
   background-color: #FFCC66;
 }
 
 #new-york {
+  width: 25%;
   background-color: #99CC99;
 }
 
+.class3 {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 #new-delhi {
+  width: 25%;
   background-color: #669999;
 }
 
 #san-francisco {
+  width: 50%;
   background-color: #CC6699;
 }
 
 #tokyo {
+  width: 25%;
   background-color: #339966;
 }
 
 #sydney {
+  width: 100%;
   background-color: #666699;
+}
+
+footer {
+  text-align: left;
+  padding: 20px;
+  font-size: 16px;
 }
